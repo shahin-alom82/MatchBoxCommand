@@ -1,0 +1,7 @@
+* {
+    background-color: #272a2c
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
