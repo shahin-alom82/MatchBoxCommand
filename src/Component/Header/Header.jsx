@@ -3,10 +3,10 @@ import logo from "../../assets/matchbox.webp"
 const Header = () => {
     const navLinks = <>
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/">invite</Link></li>
-        <li><Link to="/">premium</Link></li>
-        <li><Link to="/">commands</Link></li>
-        <li><Link to="/">support</Link></li>
+        <a href="https://discord.com/login"><li><>invite</></li></a>
+        <li><Link to="/premium">premium</Link></li>
+        <li><Link to="/commands">commands</Link></li>
+        <li><Link to="/support">support</Link></li>
     </>
     return (
         <div>
@@ -24,15 +24,13 @@ const Header = () => {
                         <img className="h-24 w-28" src={logo} alt="" />
                     </div>
                 </div>
-                <div className="navbar-center hidden  text-white lg:flex">
-                    <ul className=" flex uppercase px-1 gap-20 text-[16px]">
+                <div className="navbar-center hidden text-white lg:flex">
+                    <ul className=" flex uppercase px-1 gap-16 text-[16px]">
                         {navLinks}
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <Link to="/login">
-                        <button className=" bg-[#499bae] text-xl h-12 w-36 rounded-lg">Get Started</button>
-                    </Link>
+                    <a href="https://discord.com/login"><button className=" bg-[#499bae] text-xl h-12 w-36 rounded-lg">Get Started</button></a>
                 </div>
             </div>
             <div className="divider divider-accent"></div>
