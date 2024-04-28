@@ -1,7 +1,14 @@
-
+import AOS from "aos";
+import { useEffect } from "react";
 import { BsDiscord } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 const Support = () => {
+    useEffect(() => {
+        AOS.init({
+            duration: 2000,
+            easing: "ease-in-out",
+        });
+    }, []);
     return (
         <div>
             <section id="about">
@@ -9,7 +16,7 @@ const Support = () => {
                     <div className="">
                         <div className=" lg:flex gap-10 text-center mx-auto lg:ml-[450px]">
 
-                            <article className="border-2 border-white h-64 w-60 rounded-xl   relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+                            <article data-aos="zoom-in" className="border-2 border-white h-64 w-60 rounded-xl relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
                                 <div className=" mt-20 text-white ">
                                     <MdEmail className="text-white lg:ml-24 ml-28 h-10 w-12" />
                                     <h5 className="mt-4 uppercase text-xl">Send a Message</h5>
@@ -21,7 +28,7 @@ const Support = () => {
                             </article>
 
                             <a href="https://discord.com/invite/bTTMvXmmH8">
-                                <article className="border-2 border-white h-64 w-60 rounded-xl     relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
+                                <article data-aos="zoom-in" className="border-2 border-white h-64 w-60 rounded-xl     relative max-w-xs overflow-hidden bg-cover bg-no-repeat">
 
                                     <div className=" mt-20 text-white">
                                         <div>

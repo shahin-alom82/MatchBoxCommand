@@ -1,10 +1,10 @@
 
 
 
-
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import usePremium from "../../useAllData/usePremium/usePremium";
 import { TbSettingsPin } from "react-icons/tb";
+import AOS from "aos";
 
 const Premium = () => {
     const [activeTab, setActiveTab] = useState("premium");
@@ -16,9 +16,17 @@ const Premium = () => {
         setActiveTab(tab);
     };
 
+
+    useEffect(() => {
+        AOS.init({
+            duration: 2000,
+            easing: "ease-in-out",
+        });
+    }, []);
+
     return (
-        <div className="mt-10">
-            <h1 className="text-center lg:text-5xl text-white md:text-2xl">
+        <div className="mt-20">
+            <h1 data-aos="zoom-out-down" className="text-center lg:text-5xl text-white md:text-2xl">
                 Check out our exciting premium plans!
             </h1>
             <div className="mt-10 text-center">
@@ -39,10 +47,12 @@ const Premium = () => {
             </div>
             {/* grid-cols-1 md:grid-cols-2 lg:grid-cols-2 */}
             {activeTab === "premium" && (
-                <div className="grid lg:grid-cols-2 md:grid-cols-2 lg:w-[1000px] gap-6 mt-11 lg:mx-auto ">
+                <div  data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500" className="grid lg:grid-cols-2 md:grid-cols-2 lg:w-[1000px] gap-6 mt-11 lg:mx-auto ">
                     {premium.map((item, index) => (
                         <div key={index}>
-                            <div className="p-4 bg-black h-[1060px] text-white  rounded shadow sm:p-8 dark:border-gray-700">
+                            <div className="p-4 bg-black lg:h-[1060px] text-white  rounded shadow sm:p-8 dark:border-gray-700">
 
                                 <div className="flex gap-4 font-bold text-4xl mx-auto lg:ml-28 text-center mt-4 bg-black">
                                     <TbSettingsPin className="text-[#499bae] bg-black" />
@@ -194,12 +204,14 @@ const Premium = () => {
 
             {/* Custom-Cart */}
             {activeTab === "custom" && (
-                <div className="grid lg:grid-cols-2 md:grid-cols-2 lg:w-[1000px] gap-6 mt-11 lg:mx-auto">
+                <div  data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500" className="grid lg:grid-cols-2 md:grid-cols-2 lg:w-[1000px] gap-6 mt-11 lg:mx-auto">
                     {custom.map((item, index) => (
                         <div key={index}>
 
 
-                            <div className="p-4 bg-black h-[1060px] text-white  rounded shadow sm:p-8 dark:border-gray-700">
+                            <div className="p-4 bg-black lg:h-[1060px] text-white  rounded shadow sm:p-8 dark:border-gray-700">
 
                                 <div className="flex gap-4 font-bold text-4xl mx-auto lg:ml-20 text-center mt-4 bg-black">
                                     <TbSettingsPin className="text-[#499bae] bg-black" />
