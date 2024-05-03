@@ -25,21 +25,21 @@ const Premium = () => {
     }, []);
 
     return (
-        <div className="mt-20">
+        <div className="bg-[#0e1032] py-10">
             <h1 data-aos="zoom-out-down" className="text-center lg:text-5xl text-white md:text-2xl">
                 Check out our exciting premium plans!
             </h1>
             <div className="mt-10 text-center">
                 <button
                     className={`h-14 w-40 border-4 ${activeTab === "premium" ? "border-[#499bae]" : "border-transparent"
-                        } text-white font-semibold text-xl hover:bg-[#499bae]`}
+                        } text-white text-xl hover:bg-[#499bae]`}
                     onClick={() => handleTabClick("premium")}
                 >
                     Premium
                 </button>
                 <button
                     className={`h-14 w-40 border-4  ${activeTab === "custom" ? "border-[#499bae]" : "border-transparent"
-                        } text-white font-semibold text-xl hover:bg-[#499bae]`}
+                        } text-white text-xl hover:bg-[#499bae]`}
                     onClick={() => handleTabClick("custom")}
                 >
                     Custom Bot

@@ -13,20 +13,7 @@
         "price": "$ 2.",
         "category": "premium"
     },
-    {
-        "_id": "3",
-        "name": "Major",
-        "title": "3 entire server",
-        "price": "$ 3.",
-        "category": "premium"
-    },
-    {
-        "_id": "4",
-        "name": "Captain",
-        "title": "5 entire server",
-        "price": "$ 4.",
-        "category": "premium"
-    },
+
     {
         "_id": "5",
         "name": "Corporal (Custom bot x1)",
@@ -41,4 +28,7 @@
         "price": "$ 9.",
         "category": "custom"
     }
+
 ]
+
+

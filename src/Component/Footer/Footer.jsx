@@ -1,9 +1,9 @@
 import logo from "../../assets/matchbox.webp"
 const Footer = () => {
     return (
-        <div>
-            <footer className="footer p-10 rounded-lg text-neutral-content mt-20">
-                <nav className="text-xl">
+        <div className="bg-[#0e1032]">
+            <footer className="footer p-10 rounded-lg text-neutral-content">
+                <nav className="text-xl lg:ml-28">
                     <header className="footer-title font-semibold text-xl text-[#499bae]">About Us</header>
                     <img className="h-[100px] w-[100px]" src={logo} alt="" />
                     <p className="text-[18px]">We Care About Music Quality. <br />Your Ultimate Music Bot</p>
@@ -23,7 +23,7 @@ const Footer = () => {
                 </nav>
             </footer>
             <div className="divider divider-accent"></div>
-            <span className="block text-xl text-white sm:text-center text-[15px] pb-6">© Copyright 2024 Matchbox All Rights Reserved.</span>
+            <span className="block text-xl text-white sm:text-center text-[15px] pb-6 p-2">© Copyright 2024 Matchbox All Rights Reserved.</span>
         </div>
     );
 };

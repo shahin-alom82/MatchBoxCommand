@@ -1,13 +1,15 @@
-import { RiTaskFill } from "react-icons/ri";
 import img from "../../assets/man.webp"
+import support from "../../assets/support.png"
 import { Link } from "react-router-dom";
+
 
 const WhyMatchBox = () => {
     return (
-        <div className="mt-40">
+
+        <div className=" bg-[#0e1032]">
 
             <div data-aos="fade-down-right" className="text-center text-white">
-                <h1 className="text-4xl font-bold mt-12">Elevate your auditory journey
+                <h1 className="text-4xl font-bold">Elevate your auditory journey
                     <br />
                     to unparalleled heights !</h1>
                 <h1 className="mt-8 text-xl">Immerse yourself in the world of music on Discord with your friends! Enhance the
@@ -15,7 +17,7 @@ const WhyMatchBox = () => {
                     listening experience with audio filters, personalized playlists, autoplay, 24/7 support,
                     <br />
                     and a plethora of other features! </h1>
-                <a href="https://discord.com/login"><button className="bg-[#499bae] text-black text-xl mt-6  focus:outline-none focus:ring-2 focus:ring-blue-500 lg:h-12 lg:w-80 rounded-lg transition-all duration-300 ">Add MatchBox to Your Server!</button></a>
+                <a href="https://discord.com/login"><button className="bg-[#ba325b]  text-white text-xl mt-6  focus:outline-none focus:ring-2 focus:ring-blue-500 lg:h-12 lg:w-80 rounded-lg transition-all duration-300 ">Add MatchBox to Your Server!</button></a>
             </div>
 
 
@@ -30,112 +32,64 @@ const WhyMatchBox = () => {
 
 
 
-            <div className="flex flex-col lg:flex-row  rounded-lg mt-44">
+            <div className="flex flex-col lg:flex-row  rounded-lg mt-44 lg:ml-[70px]">
                 <div data-aos="fade-right" className=" text-white py-4 px-6 sm:py-6 sm:px-8 md:py-8 md:px-12 lg:py-10 lg:px-16 xl:py-12 xl:px-20">
                     <h1 className="text-5xl font-bold">Curious About Even More Features ?</h1>
                     <p className="text-xl mt-8">Unlock a world of premium features and elevate your Discord
                         <br /> experience by subscribing to one of our premium plans. Immerse
                         <br /> yourself in an enhanced and enriched journey with exclusive
                         <br /> functionalities!</p>
-                    <div className="grid lg:grid-cols-2 md:grid-cols-2 gap-8 mt-8">
-                        <div className="flex items-center text-center gap-2 hover:text-white bg-gray-400 h-16 w-64 text-[16px] rounded-full">
-                            <RiTaskFill className="rounded-full lg:ml-4 text-black hover:bg-white  hover:text-white " />
-                            <h1 className=" bg-gray-400 rounded-full text-black uppercase hover:text-white">24/7 support & Help</h1>
+
+
+                    <div className="grid lg:grid-cols-2 w-[390px] gap-4 mt-8">
+                        {/* cart 1 */}
+                        <div className="text-blue-700 hover:text-white border border-blue-700  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800  w-44 h-28 shadow dark:bg-gray-800 ">
+                            <img className="h-10 text-center mx-auto text-white" src={support} alt="" />
+                            <div className="">
+                                <a href="#">
+                                    <h5 className="text-[14px] text-center tracking-tight text-white mt-2">24/7 support & Help</h5>
+                                </a>
+                            </div>
                         </div>
-                        <div className="flex items-center text-center gap-2 hover:text-white bg-gray-400 h-16 w-64 text-[16px] rounded-full">
-                            <RiTaskFill className="rounded-full lg:ml-4 text-black hover:bg-white  hover:text-white " />
-                            <h1 className=" bg-gray-400 rounded-full text-black uppercase hover:text-white">24/7 support & Help</h1>
+                        {/* cart 2 */}
+                        <div className="text-blue-700 hover:text-white border border-blue-700  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800  w-44 h-28 shadow dark:bg-gray-800 ">
+                            <img className="h-10 text-center mx-auto text-white" src={support} alt="" />
+                            <div className="">
+                                <a href="#">
+                                    <h5 className="text-[14px] text-center tracking-tight text-white mt-2">24/7 support & Help</h5>
+                                </a>
+                            </div>
                         </div>
-                        <div className="flex items-center text-center gap-2 hover:text-white bg-gray-400 h-16 w-64 text-[16px] rounded-full">
-                            <RiTaskFill className="rounded-full lg:ml-4 text-black hover:bg-white  hover:text-white " />
-                            <h1 className=" bg-gray-400 rounded-full text-black uppercase hover:text-white">24/7 support & Help</h1>
+                        {/* cart 3 */}
+                        <div className="text-blue-700 hover:text-white border border-blue-700  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800  w-44 h-28 shadow dark:bg-gray-800 ">
+                            <img className="h-10 text-center mx-auto text-white" src={support} alt="" />
+                            <div className="">
+                                <a href="#">
+                                    <h5 className="text-[14px] text-center tracking-tight text-white mt-2">24/7 support & Help</h5>
+                                </a>
+                            </div>
                         </div>
-                        <div className="flex items-center text-center gap-2 hover:text-white bg-gray-400 h-16 w-64 text-[16px] rounded-full">
-                            <RiTaskFill className="rounded-full lg:ml-4 text-black hover:bg-white  hover:text-white " />
-                            <h1 className=" bg-gray-400 rounded-full text-black uppercase hover:text-white">24/7 support & Help</h1>
+                        {/* cart 4 */}
+                        <div className="text-blue-700 hover:text-white border border-blue-700  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800  w-44 h-28 shadow dark:bg-gray-800 ">
+                            <img className="h-10 text-center mx-auto text-white" src={support} alt="" />
+                            <div className="">
+                                <a href="#">
+                                    <h5 className="text-[14px] text-center tracking-tight text-white mt-2">24/7 support & Help</h5>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                    <Link to="/premium"><button className="bg-[#499bae] text-black text-xl mt-8  focus:outline-none focus:ring-2 focus:ring-blue-500 h-12 w-60 rounded-lg transition-all duration-300 ">Check Out Premium</button></Link>
+
+
+                    <Link to="/premium"><button className="bg-[#ba325b] text-white text-xl mt-8  focus:outline-none focus:ring-2 focus:ring-blue-500 h-12 w-60 rounded-lg transition-all duration-300 ">Check Out Premium</button></Link>
                 </div>
                 <div>
                     <img className="h-[530px] w-[550px] mr-[350px]" src={img} alt="" />
                 </div>
             </div>
         </div>
+
     );
 };
 
 export default WhyMatchBox;
-
-
-
-
-
-
-
-// import { RiTaskFill } from "react-icons/ri";
-// import img from "../../assets/man.webp";
-
-// const WhyMatchBox = () => {
-//     return (
-//         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-//             <div className="mt-40">
-
-//                 <div className="text-center text-white">
-//                     <h1 className="text-4xl mt-12">Elevate your auditory journey
-//                         <br />
-//                         to unparalleled heights !</h1>
-//                     <h1 className="mt-8 text-xl">Immerse yourself in the world of music on Discord with your friends! Enhance the
-//                         <br />
-//                         listening experience with audio filters, personalized playlists, autoplay, 24/7 support,
-//                         <br />
-//                         and a plethora of other features! </h1>
-//                     <a href="https://discord.com/login"><button className="bg-[#499bae] text-black text-xl mt-6  focus:outline-none focus:ring-2 focus:ring-blue-500 h-12 sm:w-80 rounded-lg transition-all duration-300 ">Add MatchBox to Your Server!</button></a>
-//                 </div>
-
-//                 <div className="text-center text-white mt-36">
-//                     <h1 className="text-4xl "> Why MatchBox? </h1>
-//                     <h1 className="mt-4 text-xl"> MatchBox is one of the best discord music bot that supports Youtube, spotify, deezer, soundcloud
-//                         <br />
-//                         and many more!</h1>
-//                     <h1 className="text-xl">You can also create your own custom playlist with MatchBox!</h1>
-//                 </div>
-
-//                 <div className="flex flex-col sm:flex-row items-center rounded-lg mt-44">
-//                     <div className="text-white py-4 px-6 sm:py-6 sm:px-8 md:py-8 md:px-12 lg:py-10 lg:px-16 xl:py-12 xl:px-20 sm:w-1/2">
-//                         <h1 className="text-5xl">Curious About Even More Features ?</h1>
-//                         <p className="text-xl mt-8">Unlock a world of premium features and elevate your Discord
-//                             <br /> experience by subscribing to one of our premium plans. Immerse
-//                             <br /> yourself in an enhanced and enriched journey with exclusive
-//                             <br /> functionalities!</p>
-//                         <div className="grid grid-cols-2 gap-8 mt-8">
-//                             <div className="flex items-center text-center gap-2 hover:text-white bg-gray-400 h-16 w-64 rounded-full font-semibold">
-//                                 <RiTaskFill className="rounded-full lg:ml-4 text-black hover:bg-white  hover:text-white " />
-//                                 <h1 className=" bg-gray-400 rounded-full text-black uppercase hover:text-white">24/7 support & Help</h1>
-//                             </div>
-
-//                             <div className="flex items-center text-center gap-2 hover:text-white bg-gray-400 h-16 w-64 rounded-full font-semibold">
-//                                 <RiTaskFill className="rounded-full lg:ml-4 text-black hover:bg-white  hover:text-white " />
-//                                 <h1 className=" bg-gray-400 rounded-full text-black uppercase hover:text-white">Global volume control</h1>
-//                             </div>
-//                             <div className="flex items-center text-center gap-2 hover:text-white bg-gray-400 h-16 w-64 rounded-full font-semibold">
-//                                 <RiTaskFill className="rounded-full lg:ml-4 text-black hover:bg-white  hover:text-white " />
-//                                 <h1 className=" bg-gray-400 rounded-full text-black uppercase hover:text-white"> Unlimited spotify links</h1>
-//                             </div>
-//                             <div className="flex items-center text-center gap-2 hover:text-white bg-gray-400 h-16 w-64 rounded-full font-semibold">
-//                                 <RiTaskFill className="rounded-full lg:ml-4 text-black hover:bg-white  hover:text-white " />
-//                                 <h1 className=" bg-gray-400 rounded-full text-black uppercase hover:text-white"> Unlimited Youtube Links</h1>
-//                             </div>
-//                         </div>
-//                         <button className="bg-[#499bae] text-black text-xl mt-8  focus:outline-none focus:ring-2 focus:ring-blue-500 h-12 w-60 sm:w-auto rounded-lg transition-all duration-300 ">Check Out Premium</button>
-//                     </div>
-//                     <div className="sm:w-1/2">
-//                         <img className="h-auto w-full" src={img} alt="" />
-//                     </div>
-//                 </div>
-//             </div>
-//         </div>
-//     );
-// };
-
-// export default WhyMatchBox;
