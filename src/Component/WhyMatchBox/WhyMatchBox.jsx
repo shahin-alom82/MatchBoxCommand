@@ -50,34 +50,40 @@ const WhyMatchBox = () => {
                             </div>
                         </Link>
                         {/* cart 2 */}
-                        <div className="text-blue-700 hover:text-white border border-blue-700  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800  w-44 h-28 shadow dark:bg-gray-800 ">
-                            <img className="h-10 text-center mx-auto text-white" src={support} alt="" />
-                            <div className="">
-                                <a href="#">
-                                    <h5 className="text-[14px] text-center tracking-tight text-white mt-2">24/7 support & Help</h5>
-                                </a>
+                        <Link to="/premium">
+                            <div className="text-blue-700 hover:text-white border border-blue-700  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800  w-44 h-28 shadow dark:bg-gray-800 ">
+                                <img className="h-10 text-center mx-auto text-white" src={support} alt="" />
+                                <div className="">
+                                    <a href="#">
+                                        <h5 className="text-[14px] text-center tracking-tight text-white mt-2">24/7 support & Help</h5>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
+                        </Link>
                         {/* cart 3 */}
-                        <div className="text-blue-700 hover:text-white border border-blue-700  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800  w-44 h-28 shadow dark:bg-gray-800 ">
-                            <img className="h-10 text-center mx-auto text-white" src={support} alt="" />
-                            <div className="">
-                                <a href="#">
-                                    <h5 className="text-[14px] text-center tracking-tight text-white mt-2">24/7 support & Help</h5>
-                                </a>
+                        <Link to="/premium">
+                            <div className="text-blue-700 hover:text-white border border-blue-700  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800  w-44 h-28 shadow dark:bg-gray-800 ">
+                                <img className="h-10 text-center mx-auto text-white" src={support} alt="" />
+                                <div className="">
+                                    <a href="#">
+                                        <h5 className="text-[14px] text-center tracking-tight text-white mt-2">24/7 support & Help</h5>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
+                        </Link>
                         {/* cart 4 */}
-                        <div className="text-blue-700 hover:text-white border border-blue-700  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800  w-44 h-28 shadow dark:bg-gray-800 ">
-                            <img className="h-10 text-center mx-auto text-white" src={support} alt="" />
-                            <div className="">
-                                <a href="#">
-                                    <h5 className="text-[14px] text-center tracking-tight text-white mt-2">24/7 support & Help</h5>
-                                </a>
+                        <Link to="/premium">
+                            <div className="text-blue-700 hover:text-white border border-blue-700  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800  w-44 h-28 shadow dark:bg-gray-800 ">
+                                <img className="h-10 text-center mx-auto text-white" src={support} alt="" />
+                                <div className="">
+                                    <a href="#">
+                                        <h5 className="text-[14px] text-center tracking-tight text-white mt-2">24/7 support & Help</h5>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
+                        </Link>
                     </div>
-
+                    <div></div>
 
                     <Link to="/premium"><button className="bg-[#ba325b] text-white text-xl mt-8  focus:outline-none focus:ring-2 focus:ring-blue-500 h-12 lg:w-60 rounded-lg transition-all duration-300 ">Check Out Premium</button></Link>
                 </div>
