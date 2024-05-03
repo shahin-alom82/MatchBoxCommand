@@ -42,8 +42,8 @@ const Commands = () => {
     }, []);
 
     return (
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 bg-[#0e1032]">
-            <div data-aos="zoom-out-down" className="text-white space-y-3 py-10">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-52 bg-[#0e1032]">
+            <div data-aos="zoom-out-down" className="text-white">
                 <h1 className="text-3xl font-semibold">MatchBox Commands</h1>
                 <p>Embark on a melodic adventure with MatchBox, your ultimate guide to an immersive and harmonious musical journey.</p>
             </div>

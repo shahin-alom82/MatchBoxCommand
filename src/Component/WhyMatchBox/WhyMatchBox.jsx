@@ -17,7 +17,7 @@ const WhyMatchBox = () => {
                     listening experience with audio filters, personalized playlists, autoplay, 24/7 support,
                     <br />
                     and a plethora of other features! </h1>
-                <a href="https://discord.com/login"><button className="bg-[#ba325b]  text-white text-xl mt-6  focus:outline-none focus:ring-2 focus:ring-blue-500 lg:h-12 lg:w-80 rounded-lg transition-all duration-300 ">Add MatchBox to Your Server!</button></a>
+                <a href="https://discord.com/login"><button className="bg-[#ba325b]  text-white lg:text-xl mt-6  focus:outline-none focus:ring-2 focus:ring-blue-500 lg:h-12 h-6 lg:w-80 rounded-lg transition-all duration-300 ">Add MatchBox to Your Server!</button></a>
             </div>
 
 
@@ -81,7 +81,7 @@ const WhyMatchBox = () => {
                     </div>
 
 
-                    <Link to="/premium"><button className="bg-[#ba325b] text-white text-xl mt-8  focus:outline-none focus:ring-2 focus:ring-blue-500 h-12 w-60 rounded-lg transition-all duration-300 ">Check Out Premium</button></Link>
+                    <Link to="/premium"><button className="bg-[#ba325b] text-white text-xl mt-8  focus:outline-none focus:ring-2 focus:ring-blue-500 h-12 lg:w-60 rounded-lg transition-all duration-300 ">Check Out Premium</button></Link>
                 </div>
                 <div>
                     <img className="h-[530px] w-[550px] mr-[350px]" src={img} alt="" />

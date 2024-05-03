@@ -12,8 +12,7 @@ const Banner = () => {
 
     return (
         <div>
-
-            <div className="flex flex-col lg:flex-row bg-[#0e1032] py-10">
+            <div className="flex flex-col lg:flex-row bg-[#0e1032] py-56">
                 <div data-aos="fade-down-right" className=" text-white py-8 px-6 sm:py-10 sm:px-8 md:py-12 md:px-16 lg:ml-[100px]  lg:px-20 xl:py-16 xl:px-24">
                     <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-semibold">We Care About Quality</h1>
                     <p className="text-4xl sm:text-5xl md:text-6xl font-bold lg:text-6xl mt-4 sm:mt-6 md:mt-8 lg:mt-10 xl:mt-12">MATCHBOX</p>

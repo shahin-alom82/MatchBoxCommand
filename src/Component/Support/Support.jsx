@@ -14,7 +14,7 @@ const Support = () => {
     return (
         <div className="bg-[#0e1032]">
             <section id="about">
-                <div className="py-40">
+                <div className="py-80">
                     <div className="">
                         <div className=" lg:flex gap-10 text-center ml-[50px] lg:ml-[450px]">
 

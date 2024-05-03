@@ -25,7 +25,7 @@ const Premium = () => {
     }, []);
 
     return (
-        <div className="bg-[#0e1032] py-10">
+        <div className="bg-[#0e1032] py-40">
             <h1 data-aos="zoom-out-down" className="text-center lg:text-5xl text-white md:text-2xl">
                 Check out our exciting premium plans!
             </h1>
