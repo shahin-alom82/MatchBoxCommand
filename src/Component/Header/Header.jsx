@@ -12,7 +12,7 @@ const Header = () => {
 
     return (
 
-        <div className="bg-gradient-to-br from-[#0a2149] h-28 fixed z-10 w-full to-[#ab2753]">
+        <div className="bg-gradient-to-br from-[#0a2149] h-28 fixed z-10 lg:w-full  to-[#ab2753]">
             <div className="navbar rounded-lg">
                 <div className="navbar-start">
                     <div className="dropdown text-white">

@@ -85,7 +85,7 @@ const WhyMatchBox = () => {
                     </div>
                     <div></div>
 
-                    <Link to="/premium"><button className="bg-[#ba325b] text-white text-xl mt-8  focus:outline-none focus:ring-2 focus:ring-blue-500 h-12 lg:w-60 rounded-lg transition-all duration-300 ">Check Out Premium</button></Link>
+                    <Link to="/premium"><button className="bg-[#ba325b] text-white text-xl mt-8  focus:outline-none focus:ring-2 focus:ring-blue-500 lg:h-12 h-10 lg:w-60 md:w-52 p-2 rounded-lg transition-all duration-300 ">Check Out Premium</button></Link>
                 </div>
                 <div>
                     <img className="h-[530px] w-[550px] mr-[350px]" src={img} alt="" />

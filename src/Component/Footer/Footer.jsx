@@ -23,7 +23,7 @@ const Footer = () => {
                 </nav>
             </footer>
             <div className="divider divider-accent"></div>
-            <span className="block text-xl text-white sm:text-center text-[15px] pb-6 p-2">© Copyright 2024 Matchbox All Rights Reserved.</span>
+            <span className="block text-xl text-white sm:text-center text-[14px] pb-6 p-2">© Copyright 2024 Matchbox All Rights Reserved.</span>
         </div>
     );
 };
